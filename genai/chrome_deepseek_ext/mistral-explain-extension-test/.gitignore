@@ -1,0 +1,18 @@
+# Ignore config.js if it contains sensitive information
+config.js
+
+# Ignore .env files (in case you use them for local testing)
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore node_modules if you're using any dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Chrome extension build files (optional)
+*.crx
+*.pem
+*.zip
