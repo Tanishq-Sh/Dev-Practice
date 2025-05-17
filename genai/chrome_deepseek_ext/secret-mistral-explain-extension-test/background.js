@@ -1,5 +1,6 @@
 // Import default configuration for local development
 import { API_KEY, MODEL_NAME, API_URL } from "./config.js";
+import { marked } from "marked";
 
 // Retrieve configuration from chrome.storage.local, or fallback to local config
 function getConfig(callback) {
