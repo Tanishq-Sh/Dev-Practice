@@ -18,7 +18,7 @@ print(new_dict2)
 # get() method
 print(my_dict.get('name')) #key found then return value of the key
 print(my_dict.get('name2')) #key not found and value not provided then return None
-print(my_dict.get('name2','Tiger')) #key not found and valur provided then return value provided
+print(my_dict.get('name2','Tiger')) #key not found and value provided then return value provided
 
 # items() method (returns list of tuples)
 print(my_dict.items())
